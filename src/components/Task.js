@@ -6,7 +6,7 @@ const Task = () =>{
             <li className={"list-unstyled"}>
                 <div className="row justify-content-sm-between  align-items: center; py-3 ">
                     <div className="col-6 col-sm-4">
-                        <p className={"mb-0"}>Task One</p>
+                        <p className={"mb-0"}><span className={"fw-bold"}>1.</span>Task One</p>
                     </div>
                     <div className="col-6 col-sm-4 text-end text-sm-end text-lg-end">
                         <FaCheck color={"green"}/>
