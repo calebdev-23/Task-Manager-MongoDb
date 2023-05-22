@@ -1,0 +1,37 @@
+.app{
+  .taskForm{
+    form{
+      input{
+        border-radius: 0;
+        border: 1px solid rgba(0, 0, 0, 0.25);
+        border-right: none;
+        &:focus{
+          box-shadow: none;
+        }
+      }
+      .btn{
+        background-color: green;
+        color: white;
+        border-radius: 0;
+        border: 1px solid green;
+        border-left: none;
+      }
+    }
+  }
+  .taskList{
+    li{
+      border-left: 3px solid green;
+      padding-left: 5px;
+      margin-bottom: 5px;
+    }
+    .d-flex{
+      p{
+        margin-bottom: 0;
+        span{
+          font-weight: bold;
+        }
+      }
+      border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    }
+  }
+}
